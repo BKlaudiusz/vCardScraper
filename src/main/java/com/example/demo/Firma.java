@@ -1,8 +1,14 @@
 package com.example.demo;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import org.json.JSONObject;
 
 import org.jsoup.nodes.Element;
 
+@Getter
+@Setter
+@ToString
 public class Firma {
     String name;
     String telephone;
