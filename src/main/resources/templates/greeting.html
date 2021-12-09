@@ -16,7 +16,7 @@
         <p>postalCode: <span th:text="*{item.postalCode}"></span>.</p>
         <p>street: <span th:text="*{item.street}"></span>.</p>
         <p>city: <span th:text="*{item.city}"></span>.</p>
-        <a th:href="@{|src/main/resources/card/${item.telephone}.vcf|}"><span th:text="${item.telephone}"></span></a>
+        <a th:href="@{|src/main/resources/card/${item.telephone}.vcf|}"><span th:text="Link"></span></a>
 
     </div>
 </div>
