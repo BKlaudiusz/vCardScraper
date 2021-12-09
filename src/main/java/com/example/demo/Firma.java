@@ -20,6 +20,6 @@ public class Firma {
     }
     private String GetFromJson(String json, String field) {
         int indexOf = json.indexOf(field);
-        return json.substring(indexOf + field.length() + 3, json.indexOf("\"", indexOf + field.length() + 3));;
+        return json.substring(indexOf + field.length() + 3, json.indexOf("\"", indexOf + field.length() + 3));
     }
 }
